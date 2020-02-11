@@ -14,31 +14,31 @@ You need to plan your application you are creating and if you are going to inclu
 
 3. Load Firebase CLI Tools:
 
-npm -g install firebase-tools
+<pre><code>npm -g install firebase-tools</code></pre>
 
 4. Verify:
 
-firebase --version
+<pre><code>firebase --version</code></pre>
 
 5. Login and authorize Firebase:
 
-firebase login
+<pre><code>firebase login</code></pre>
 
 6. Create project then run:
 
-firebase init
+<pre><code>firebase init</code></pre>
 
 7. Associate with your project:
 
-firebase use --add
+<pre><code>firebase use --add</code></pre>
 
 8. Setup for local hosting:
 
-firebase serve --only hosting
+<pre><code>firebase serve --only hosting</code></pre>
 
 9. Bring in all the scripts for Firebase. You probably already have some. If you created the project before hand they are in the index.html file that was created by running
 
-firebase init
+<pre><code>firebase init</code></pre>
 
 10. If you are using sass make sure you have your package.json path for sass changed to public/sass
 
