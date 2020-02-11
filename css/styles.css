@@ -5,7 +5,8 @@
 
 html,
 body {
-  height: 100%; }
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif; }
 
 h1,
 h2,
@@ -15,6 +16,17 @@ h5,
 h6,
 p {
   margin-bottom: 16px; }
+
+.btn {
+  border-radius: 10px;
+  height: 50px;
+  padding: 20px 50px;
+  font-weight: bold;
+  cursor: pointer; }
+
+.btn-dark {
+  background-color: #393c40;
+  color: #f2f2f2; }
 
 .nav {
   position: fixed;
@@ -55,3 +67,10 @@ p {
       color: #f2f2f2;
       text-decoration: none;
       text-transform: uppercase; }
+
+.content-wrapper {
+  color: #393c40;
+  padding: 110px 30px 30px 30px; }
+  .content-wrapper .text-wrapper {
+    width: 30%;
+    margin-bottom: 40px; }

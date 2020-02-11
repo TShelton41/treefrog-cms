@@ -1,0 +1,12 @@
+.btn {
+  border-radius: 10px;
+  height: 50px;
+  padding: 20px 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-dark {
+  background-color: #393c40;
+  color: $white-color;
+}
