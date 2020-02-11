@@ -1,0 +1,25 @@
+{
+  "name": "treefrog-cms",
+  "version": "1.0.0",
+  "description": "This is a CMS using Firebase and jQuery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass scss/styles.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TShelton41/treefrog-cms.git"
+  },
+  "author": "Todd Shelton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TShelton41/treefrog-cms/issues"
+  },
+  "homepage": "https://github.com/TShelton41/treefrog-cms#readme",
+  "devDependencies": {
+    "firebase-tools": "^7.12.1",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.1"
+  }
+}

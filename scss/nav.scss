@@ -1,0 +1,54 @@
+.nav {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background-color: #393c40;
+  display: flex;
+
+  .left-nav-holder {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .link-holder {
+      height: 100%;
+      position: relative;
+
+      a {
+        margin-top: 31px;
+        color: #f2f2f2;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+      }
+
+      .active-box {
+        position: absolute;
+        bottom: 0;
+        height: 12px;
+        width: 100%;
+        display: none;
+      }
+
+      .active {
+        display: block;
+        background-color: #f2dcc9;
+      }
+    }
+  }
+
+  .right-nav-holder {
+    width: 20%;
+    height: 100%;
+    display: flex;
+
+    a {
+      margin: auto;
+      color: #f2f2f2;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+}
