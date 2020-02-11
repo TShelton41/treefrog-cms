@@ -10,25 +10,25 @@
   <body>
     <nav class="nav">
       <div class="left-nav-holder">
-        <div class="link-holder">
+        <div id="home" class="link-holder">
           <a href="#">HOME</a>
           <div class="active-box active"></div>
         </div>
-        <div class="link-holder">
+        <div id="addNav" class="link-holder get-started">
           <a href="#">add navigation</a>
           <div class="active-box"></div>
         </div>
-        <div class="link-holder">
+        <div id="editNav" class="link-holder">
           <a href="#">edit navigation</a>
           <div class="active-box"></div>
         </div>
-        <div class="link-holder">
+        <div id="deleteNav" class="link-holder">
           <a href="#">delete navigation</a>
           <div class="active-box"></div>
         </div>
       </div>
       <div class="right-nav-holder">
-        <a href="#">preview site</a>
+        <a id="preview" href="#">preview site</a>
       </div>
     </nav>
 
@@ -52,7 +52,7 @@
         </p>
       </div>
       <div class="btn-holder">
-        <span id="get-started" class="btn btn-dark">Get Started</span>
+        <span class="btn btn-dark get-started">Get Started</span>
       </div>
     </div>
 
@@ -60,6 +60,15 @@
       <div class="alert-box"></div>
     </div>
 
+    <script defer src="/__/firebase/7.8.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.8.1/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.8.1/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.8.1/firebase-firestore.js"></script>
+    <script defer src="/__/firebase/7.8.1/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.8.1/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
     <script src="lib/jquery.min.js"></script>
     <script src="app/service.js"></script>
     <script src="app/app.js"></script>
