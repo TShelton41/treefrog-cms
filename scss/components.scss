@@ -10,3 +10,21 @@
   background-color: #393c40;
   color: $white-color;
 }
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba($white-color, 0.5);
+  display: none;
+
+  .alert-box {
+    width: 600px;
+    height: 350px;
+    background-color: $dark-color;
+    margin: auto;
+    border-radius: 10px;
+  }
+}

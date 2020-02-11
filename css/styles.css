@@ -28,6 +28,21 @@ p {
   background-color: #393c40;
   color: #f2f2f2; }
 
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(242, 242, 242, 0.5);
+  display: none; }
+  .modal .alert-box {
+    width: 600px;
+    height: 350px;
+    background-color: #393c40;
+    margin: auto;
+    border-radius: 10px; }
+
 .nav {
   position: fixed;
   height: 80px;
