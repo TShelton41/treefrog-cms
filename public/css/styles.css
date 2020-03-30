@@ -17,6 +17,13 @@ h6,
 p {
   margin-bottom: 16px; }
 
+blockquote {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px; }
+
 .btn {
   border-radius: 10px;
   height: 50px;
@@ -29,20 +36,50 @@ p {
   background-color: #393c40;
   color: #f2f2f2; }
 
+.btn-light {
+  background-color: #f2dcc9;
+  color: #393c40; }
+
 .modal {
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(242, 242, 242, 0.5);
   display: none; }
+  .modal .clickBox {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(242, 242, 242, 0.8); }
+    .modal .clickBox .closeX {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 50px;
+      cursor: pointer;
+      color: #393c40; }
   .modal .alert-box {
+    position: relative;
+    padding: 20px;
+    color: #f2f2f2;
     width: 600px;
     height: 350px;
     background-color: #393c40;
     margin: auto;
-    border-radius: 10px; }
+    border-radius: 10px;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; }
+    .modal .alert-box input {
+      height: 50px;
+      border-radius: 4px;
+      width: 30%;
+      font-size: 20px; }
+    .modal .alert-box input[type='text'] {
+      text-align: center; }
 
 .nav {
   position: fixed;
@@ -89,5 +126,17 @@ p {
   color: #393c40;
   padding: 110px 30px 30px 30px; }
   .content-wrapper .text-wrapper {
-    width: 30%;
+    width: 70%;
     margin-bottom: 40px; }
+
+.ql-align-center {
+  text-align: center; }
+
+.ql-align-right {
+  text-align: right; }
+
+pre {
+  padding: 20px;
+  width: 70%;
+  background-color: black;
+  color: #eee; }
