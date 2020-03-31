@@ -24,6 +24,9 @@ blockquote {
   margin-left: 40px;
   margin-right: 40px; }
 
+a {
+  margin-right: 20px; }
+
 .btn {
   border-radius: 10px;
   height: 50px;
