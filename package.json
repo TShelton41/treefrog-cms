@@ -20,7 +20,7 @@
   "homepage": "https://github.com/TShelton41/treefrog-cms#readme",
   "devDependencies": {
     "firebase-tools": "^7.12.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "node-sass": "^4.13.1"
   }
 }
